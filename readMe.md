@@ -161,3 +161,12 @@ https://github.com/endoplasmic/google-assistant
 ## Donations
 Whilst donations are appreciated, they are not expected, nor required.  If you want to buy me a drink, you can do so here:
 https://monzo.me/greghesp
+
+### TODO:
+Dockerize
+
+### How to install
+* Visit https://github.com/lavatiles/assistant-relay
+* Do the "Creating Users" step - important
+* Copy the clientid.json into server/configurations/secrets - rename to name.json
+* I think the config.json will just update when you do it
