@@ -6,7 +6,7 @@
     "start": 21,
     "end": 8
   },
-  "baseUrl": "http://lavatiles:3000",
+  "baseUrl": "http://your.ip.address:port",
   "conversation": {
     "language": "en-US",
     "audio": {
@@ -15,9 +15,9 @@
     }
   },
   "users": {
-    "<name>": {
-      "keyFilePath": "<app-path>/server/configurations/secrets/<name>.json",
-      "savedTokensPath": "<app-path>/server/configurations/tokens/<name>-tokens.json"
+    "greg": {
+      "keyFilePath": "C:\\Users\\Greg\\Documents\\Node\\assistant-relay\\server\\configurations\\secrets\\greg.json",
+      "savedTokensPath": "C:\\Users\\Greg\\Documents\\Node\\assistant-relay\\server\\configurations\\tokens\\greg-tokens.json"
     }
   },
   "assistants": {}
