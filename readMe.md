@@ -169,4 +169,6 @@ Dockerize
 * Visit https://github.com/lavatiles/assistant-relay
 * Do the "Creating Users" step - important
 * Copy the clientid.json into server/configurations/secrets - rename to name.json
-* I think the config.json will just update when you do it
+* Run npm install in that dir on the pi
+* Run npm run start in that dir on the pi with the browser window open
+* It will prompt for oauth to google
