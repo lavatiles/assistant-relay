@@ -169,3 +169,5 @@ https://monzo.me/greghesp
 * Run npm install in that dir on the pi
 * Run npm run start in that dir on the pi with the browser window open
 * It will prompt for oauth to google
+* Setup crontab
+* @reboot cd /home/pi/LavaTiles/assistant-relay && /usr/bin/docker-compose up -d
